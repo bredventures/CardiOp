@@ -1,0 +1,11 @@
+framework module CardiOpFramework {
+  umbrella header "CardiOpFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module CardiOpFramework.Swift {
+    header "CardiOpFramework-Swift.h"
+    requires objc
+}
