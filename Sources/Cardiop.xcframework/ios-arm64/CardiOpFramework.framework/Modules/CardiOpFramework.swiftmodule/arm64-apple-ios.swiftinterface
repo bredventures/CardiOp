@@ -12,8 +12,8 @@ public protocol CardioPServicesDelegate {
   func didConnectToCentral()
   func didFailToConnectToCentral(reason: Swift.String)
 }
-@objc @_inheritsConvenienceInitializers public class CardioPServices : ObjectiveC.NSObject {
-  public static let shared: CardiOpFramework.CardioPServices
+@objc @_inheritsConvenienceInitializers public class CardiOpServices : ObjectiveC.NSObject {
+  public static let shared: CardiOpFramework.CardiOpServices
   public var cardiopDelegate: CardiOpFramework.CardioPServicesDelegate?
   public func connect()
   public func hasValidLicense() -> Swift.Bool

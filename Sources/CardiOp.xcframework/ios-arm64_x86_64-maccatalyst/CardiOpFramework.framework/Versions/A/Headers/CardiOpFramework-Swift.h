@@ -216,8 +216,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-SWIFT_CLASS("_TtC16CardiOpFramework15CardioPServices")
-@interface CardioPServices : NSObject
+SWIFT_CLASS("_TtC16CardiOpFramework15CardiOpServices")
+@interface CardiOpServices : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -444,8 +444,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-SWIFT_CLASS("_TtC16CardiOpFramework15CardioPServices")
-@interface CardioPServices : NSObject
+SWIFT_CLASS("_TtC16CardiOpFramework15CardiOpServices")
+@interface CardiOpServices : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
