@@ -24,7 +24,7 @@ let package = Package(
         
         .binaryTarget(
                     name: "Cardiop",
-                    path: "./Sources/Cardiop.xcframework"
+                    path: "./Sources/CardiOp.xcframework"
                 )
     ]
 )
