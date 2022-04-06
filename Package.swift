@@ -11,8 +11,8 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "Cardiop",
-            targets: ["Cardiop"]),
+            name: "CardiOp",
+            targets: ["CardiOp"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -23,7 +23,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         
         .binaryTarget(
-                    name: "Cardiop",
+                    name: "CardiOp",
                     path: "./Sources/CardiOp.xcframework"
                 )
     ]
