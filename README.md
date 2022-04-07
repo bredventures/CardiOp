@@ -21,9 +21,9 @@ The preferred way of installing CardiOp is via the Swift Package Manager
 Using the CardiOp framework is straightforward
 
 1. `import CardiOpFramework`
-2.  Create an instance of CardioPServices by calling
+2.  Create an instance of CardiOpServices by calling
 ```
- var cardiOpService = CardioPServices.shared
+ var cardiOpService = CardiOpServices.shared
 ```
 3. When you are ready to start the pairing between CardiOp Apple Watch app and your iOS device, conform to the `cardioDelegate` and  call `connect`
 ```
