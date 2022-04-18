@@ -6,18 +6,19 @@ import CoreBluetooth
 import Foundation
 import Swift
 import _Concurrency
-public protocol CardioPServicesDelegate {
+public protocol CardiOpServicesDelegate {
   func uiUpdates(message: Swift.String)
   func updateHR(value: Swift.String)
   func didConnectToCentral()
   func didFailToConnectToCentral(reason: Swift.String)
 }
-@objc @_inheritsConvenienceInitializers public class CardiOpServices : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers public class CardiOpServices : ObjectiveC.NSObject, Foundation.ObservableObject {
   public static let shared: CardiOpFramework.CardiOpServices
-  public var cardiopDelegate: CardiOpFramework.CardioPServicesDelegate?
+  public var cardiopDelegate: CardiOpFramework.CardiOpServicesDelegate?
   public func connect()
   public func hasValidLicense() -> Swift.Bool
   public func sendWorkoutStatus(started: Swift.Bool, type: Swift.UInt8 = 0, location: Swift.UInt8 = 0)
   @objc override dynamic public init()
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }

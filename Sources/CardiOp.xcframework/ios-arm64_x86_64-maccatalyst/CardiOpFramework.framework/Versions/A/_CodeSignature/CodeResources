@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		QOA8EwMPtQPn7tZVEQ5xC3kfWqA=
+		5F3KsIQmPs/uFfeB9NcRz05Vb/Y=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -36,14 +36,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JD31AYt26HvTZrsGKtCmOFzO1i1RexjTSlzeBbX0YDk=
+			HzHcAF5WiHg/EqBBpTUu0WqTykySDwPUguktj1dflfs=
 			</data>
 		</dict>
 		<key>Modules/CardiOpFramework.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U5Q75iFn9HXFa+iUVeHqaCQH5hsq/1QFIZQqJHqpe8c=
+			fsCGj0c5KIVcyjQ9tJSEOpeJ8KN2YQIbsqVXPph+SuQ=
 			</data>
 		</dict>
 		<key>Modules/CardiOpFramework.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -57,14 +57,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gyuquF1CJW7tKJedpdsGh1QpBpyT1yFLBl9i1tNrQL4=
+			dngiLvRKUatnJExZKJRqwDv0N0C4RQ9hW7vvauuyFJU=
 			</data>
 		</dict>
 		<key>Modules/CardiOpFramework.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OX2JkiBMtbiE4wlJnCFdVu4SuyEiX27ncemIsZsm+fU=
+			qyfK4ktun42K9npSTH+v3SswElniJtUc61vv2/yg8kQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ElnUKS/yBiZ7UIhpT8yLqDbxdR3SHjveEL126JwCX84=
+			LDdwGxih4GlhK22OHXewi9v9AUqUP7HZ3LWUdU04RyM=
 			</data>
 		</dict>
 	</dict>
