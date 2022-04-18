@@ -12,13 +12,12 @@ public protocol CardiOpServicesDelegate {
   func didConnectToCentral()
   func didFailToConnectToCentral(reason: Swift.String)
 }
-@objc @_inheritsConvenienceInitializers public class CardiOpServices : ObjectiveC.NSObject, Foundation.ObservableObject {
+@objc @_inheritsConvenienceInitializers public class CardiOpServices : ObjectiveC.NSObject {
   public static let shared: CardiOpFramework.CardiOpServices
   public var cardiopDelegate: CardiOpFramework.CardiOpServicesDelegate?
   public func connect()
   public func hasValidLicense() -> Swift.Bool
   public func sendWorkoutStatus(started: Swift.Bool, type: Swift.UInt8 = 0, location: Swift.UInt8 = 0)
   @objc override dynamic public init()
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }

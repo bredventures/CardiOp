@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/CardiOpFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		s5CqDQgVg7Dxdszhk4GxLOezWo4=
+		gwYEfN00K18SwcLZuczwW4QJ5M8=
 		</data>
 		<key>Modules/CardiOpFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		MpxHWgYai6Rca7ejRxA1bJGLN7Q=
+		Wa5sTNGf57xXvrQsmq+uN4luet4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -60,14 +60,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xwBeR7tTYgESomBBNclOIYgC/5N/iVAxaQwwtOh7NLI=
+			g1BJtUM+Pbhw6QVR3SOFYieL5hxQSeq05hWOzz7SEEc=
 			</data>
 		</dict>
 		<key>Modules/CardiOpFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CfLJmkNY+AF/r+rSuBuOxsVRHbQqkkZresveWsKge4o=
+			+xcDbF57A807aNmNEjWAFLD9/5eE7+atqpNwpiPs8YE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
